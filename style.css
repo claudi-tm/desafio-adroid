@@ -5,6 +5,9 @@
     text-align: justify;
 }
 
+body {
+    background-color: #84E1AD;
+}
 
 header {
     background-image: linear-gradient(to bottom, #60D27F, #265D39);
@@ -30,43 +33,28 @@ nav>a {
     padding: 0.5em;
 }
 
-body {
-    background-color: #84E1AD;
-}
-
 main {
     background-color: white;
     margin: auto;
     display: block;
     width: 40em;
     border-radius: 0em 0em 1em 1em;
-
-}
-
-footer {
-    text-align: center;
-    background-color: #265D39;
 }
 
 section {
     padding: 1em;
 }
 
-
-#extra-section {
-    background-color: #C5EBD6;
-    border-radius: 1em;
-    padding: 0em 0em 1em 0em;
-    margin: 1em 1em 0em 1em;
+span::after {
+    content: "🔗";
 }
 
-#video-section {
+footer {
+    margin-top: 1em;
+    text-align: center;
+    color: white;
+    padding: 0.5em;
     background-color: #265D39;
-}
-
-#video {
-    display: block;
-    margin: auto;
 }
 
 h1 {
@@ -91,19 +79,23 @@ a {
     text-decoration: none;
 }
 
-span::after {
-    content: "🔗";
-}
-
 p {
     margin: 1em;
     text-indent: 1.5em;
 }
 
+#extra-section {
+    background-color: #C5EBD6;
+    border-radius: 1em;
+    padding: 0em 0em 1em 0em;
+    margin: 1em 1em 0em 1em;
+}
 
-footer {
-    margin-top: 1em;
-    text-align: center;
-    color: white;
-    padding: 0.5em;
+#video-section {
+    background-color: #265D39;
+}
+
+#video {
+    display: block;
+    margin: auto;
 }
