@@ -64,6 +64,10 @@ section {
     background-color: #265D39;
 }
 
+#video {
+    display: block;
+    margin: auto;
+}
 
 h1 {
     color: #265C38;
@@ -71,6 +75,7 @@ h1 {
 
 h2 {
     color: #2C6B49;
+    background-image: linear-gradient(to left, white, #CFE5BF,  #B2E6A8);
 }
 
 h3 {
@@ -92,7 +97,7 @@ span::after {
 
 p {
     margin: 1em;
-    text-indent: 2em;
+    text-indent: 1.5em;
 }
 
 
