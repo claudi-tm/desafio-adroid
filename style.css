@@ -14,7 +14,8 @@ header {
     padding-bottom: 0;
 }
 
-header > h1, header > p {
+header>h1,
+header>p {
     text-align: center;
     color: white;
     padding: 0.1em;
@@ -24,7 +25,7 @@ nav {
     padding: 0.5em;
 }
 
-nav > a{
+nav>a {
     color: white;
     padding: 0.5em;
 }
@@ -39,7 +40,7 @@ main {
     display: block;
     width: 40em;
     border-radius: 0em 0em 1em 1em;
-    
+
 }
 
 footer {
@@ -85,7 +86,7 @@ a {
     text-decoration: none;
 }
 
-p > a::after {
+span::after {
     content: "🔗";
 }
 
@@ -101,4 +102,3 @@ footer {
     color: white;
     padding: 0.5em;
 }
-
