@@ -87,6 +87,12 @@ p {
     text-indent: 1.5em;
 }
 
+picture {
+    display: block;
+    margin: auto;
+    width: max-content;
+}
+
 #extra-section {
     background-color: #C5EBD6;
     border-radius: 1em;
