@@ -1,135 +1,161 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: idrod;
-    src: url('fonts/idroid.otf');
+  font-family: Android;
+  src: url("fonts/idroid.otf") format("opentype");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+:root {
+  --font-android: 'Android';
+}
 
 * {
-    margin: 0;
-    text-align: justify;
+  margin: 0;
+  text-align: justify;
 }
 
 body {
-    background-color: #84E1AD;
+  background-color: #84e1ad;
+  
 }
 
 header {
-    background-image: linear-gradient(to bottom, #60D27F, #265D39);
-    height: 11em;
-    padding-top: 2em;
-    margin-top: 0;
-    padding-bottom: 0;
+  background-image: linear-gradient(to bottom, #60d27f, #265d39);
+  height: 11em;
+  padding-top: 2em;
+  margin-top: 0;
+  padding-bottom: 0;
 }
 
 header>h1,
 header>p {
-    text-align: center;
-    color: white;
-    padding: 0.1em;
-    font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  color: white;
+  padding: 0.1em;
+  font-family: "Shadows Into Light", cursive;
 }
 
 nav {
-    padding: 0.5em;
+  padding: 0.5em;
 }
 
 nav>a {
-    color: white;
-    padding: 0.5em;
+  color: white;
+  padding: 0.5em;
 }
 
-nav > a:hover {
-    color: black;
-    background-color: #4BB36D;
-    border-radius: 0.3em;
+nav>a:hover {
+  color: black;
+  background-color: #4bb36d;
+  border-radius: 0.3em;
 }
 
 main {
-    background-color: white;
-    margin: auto;
-    display: block;
-    width: 40em;
-    border-radius: 0em 0em 1em 1em;
+  background-color: white;
+  margin: auto;
+  display: block;
+  border-radius: 0em 0em 1em 1em;
+  max-width: 50em;
+  min-width: 320px;
 }
 
 section {
-    padding: 1em;
+  padding: 1em;
 }
 
 footer {
-    margin-top: 1em;
-    text-align: center;
-    color: white;
-    padding: 0.5em;
-    background-color: #265D39;
+  margin-top: 1em;
+  text-align: center;
+  color: white;
+  padding: 0.5em;
+  background-color: #265d39;
 }
 
-h1 {
-    color: #265C38;
+footer>a {
+  color: white;
+}
+
+section h2,
+section h1 {
+  color: #265c38;
+  font-family: var(--font-android);
 }
 
 h2 {
-    color: #2C6B49;
-    background-image: linear-gradient(to left, white, #CFE5BF,  #B2E6A8);
+  color: #2c6b49;
+  background-image: linear-gradient(to left, white, #cfe5bf, #b2e6a8);
+
 }
 
 h3 {
-    background-color: #4CA966;
-    border-radius: 1em 1em 0em 0em;
-    padding: 0.5em;
-    color: white;
+  background-color: #4ca966;
+  border-radius: 1em 1em 0em 0em;
+  padding: 0.5em;
+  color: white;
 }
 
-h1, h2 {
-    font-family: idroid
+h1,
+h2 {
+  font-family: idroid;
 }
 
 a {
-    color: #0c411e;
-    font-weight: bold;
-    text-decoration: none;
-    
+  color: #0c411e;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 p {
-    margin: 1em;
-    text-indent: 1.5em;
+  margin: 1em;
+  text-indent: 1.5em;
 }
 
 picture {
-    display: block;
-    margin: auto;
-    width: max-content;
+  display: block;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
 }
 
 #extra-section {
-    background-color: #C5EBD6;
-    border-radius: 1em;
-    padding: 0em 0em 1em 0em;
-    margin: 1em 1em 0em 1em;
+  background-color: #c5ebd6;
+  border-radius: 1em;
+  padding: 0em 0em 1em 0em;
+  margin: 1em 1em 0em 1em;
 }
 
 #video-section {
-    background-color: #265D39;
+  background-color: #265d39;
 }
 
 #video {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
+}
+
+#bugdroid {
+  width: 50%;
+  display:block;
+  margin: auto;
 }
 
 .bugdroid {
-    color: #15552a;
-    font-weight: bold;
+  color: #15552a;
+  font-weight: bold;
 }
 
 .link {
-    background-color: #56cc89;
+  background-color: #56cc89;
 }
 
 .link::after {
-    content: "🔗";
+  content: "🔗";
 }
