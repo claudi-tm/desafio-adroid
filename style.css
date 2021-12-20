@@ -51,14 +51,6 @@ section {
     padding: 1em;
 }
 
-span {
-    background-color: #56cc89;
-}
-
-span::after {
-    content: "🔗";
-}
-
 footer {
     margin-top: 1em;
     text-align: center;
@@ -109,4 +101,17 @@ p {
 #video {
     display: block;
     margin: auto;
+}
+
+.bugdroid {
+    color: #15552a;
+    font-weight: bold;
+}
+
+.link {
+    background-color: #56cc89;
+}
+
+.link::after {
+    content: "🔗";
 }
