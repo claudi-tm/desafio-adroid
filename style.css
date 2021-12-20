@@ -33,6 +33,12 @@ nav>a {
     padding: 0.5em;
 }
 
+nav > a:hover {
+    color: black;
+    background-color: #4BB36D;
+    border-radius: 0.3em;
+}
+
 main {
     background-color: white;
     margin: auto;
@@ -43,6 +49,10 @@ main {
 
 section {
     padding: 1em;
+}
+
+span {
+    background-color: #56cc89;
 }
 
 span::after {
@@ -74,9 +84,10 @@ h3 {
 }
 
 a {
-    color: #2C6B49;
+    color: #0c411e;
     font-weight: bold;
     text-decoration: none;
+    
 }
 
 p {
