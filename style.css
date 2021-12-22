@@ -23,10 +23,14 @@ body {
 
 header {
   background-image: linear-gradient(to bottom, #60d27f, #265d39);
-  height: 11em;
+  min-width: 2.5em;
   padding-top: 2em;
   margin-top: 0;
   padding-bottom: 0;
+}
+
+header h1 {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
 }
 
 header>h1,
