@@ -71,6 +71,11 @@ section {
   padding: 1em;
 }
 
+aside ul {
+  list-style-type: " ✔️  ";
+  columns: 2;
+}
+
 footer {
   margin-top: 1em;
   text-align: center;
@@ -136,6 +141,7 @@ iframe {
   border-radius: 1em;
   padding: 0em 0em 1em 0em;
   margin: 1em 1em 0em 1em;
+  box-shadow: 2px 2px 2px rgba(0, 128, 0, 0.397);
 }
 
 #video-section {
@@ -148,7 +154,7 @@ iframe {
 }
 
 #bugdroid {
-  width: 50%;
+  max-width: 15.9em;
   display: block;
   margin: auto;
 }
